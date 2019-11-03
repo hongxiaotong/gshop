@@ -136,6 +136,7 @@ import ShopList from "../../components/ShopList/ShopList.vue"
 import HeaderTop from "../../components/HeaderTop/HeaderTop.vue"
 import Swiper from "swiper"
 import "swiper/css/swiper.min.css"
+import { reqCategorys } from "../../api/index"
 export default {
   data () {
     return {
